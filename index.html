@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Railroader Map</title>
+		<link rel="icon" href="assets\ica.png" type="image/png" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.0.0/openseadragon.min.js"></script>
+	</head>
+	<body>
+		<!-- Cool Custom Loader -->
+		<div id="loader">
+			<div class="spinner"></div>
+			<div class="text">Loading Map...</div>
+		</div>
+
+		<header>
+			<h1>Track Schematic - Fully Annotated Map</h1>
+			<nav>
+				<button class="reset-zoom-btn" id="resetZoomBtn">Reset Zoom</button>
+				<button class="reset-zoom-btn" id="centerMapBtn">Center Map</button>
+				<!-- hitwebcounter Code START -->
+				<a href="https://www.hitwebcounter.com" target="_blank">
+					<img
+						src="https://hitwebcounter.com/counter/counter.php?page=20680532&style=0038&nbdigits=4&type=ip&initCount=3"
+						title="Counter Widget"
+						alt="Visit counter For Websites"
+						border="0"
+				/></a>
+			</nav>
+		</header>
+		<!-- Search Bar -->
+		<div class="search-container">
+			<input
+				type="text"
+				id="locationSearch"
+				placeholder="Search location..."
+				autocomplete="off"
+			/>
+			<div id="suggestions"></div>
+		</div>
+
+		<div id="openseadragon" style="position: relative">
+			<div id="zoom-level">Zoom: 1.00x</div>
+			<div id="loading-indicator">
+				<div class="spinner"></div>
+			</div>
+			<div id="info-box"></div>
+		</div>
+
+		<footer>
+			<p>
+				Schematic design © 2023 by <strong>Dewclaw</strong> · Licensed under
+				<a
+					href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+					target="_blank"
+					rel="noopener noreferrer"
+					>CC BY-NC-ND 4.0</a
+				>
+			</p>
+			<p>
+				Website created by <strong>Reaper</strong> · Images aligned and
+				assembled from original shared schematic
+			</p>
+			<p>
+				Join the community:
+				<a
+					href="https://discord.gg/r8xeTPAnhw"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Railroader Discord</a
+				>
+			</p>
+		</footer>
+		<script>
+			const MIN_LOAD_TIME = 2000; // 2 seconds
+			const startTime = Date.now();
+
+			window.addEventListener("load", () => {
+				const timeElapsed = Date.now() - startTime;
+				const remainingTime = Math.max(0, MIN_LOAD_TIME - timeElapsed);
+
+				setTimeout(() => {
+					document.body.classList.add("loaded");
+				}, remainingTime);
+			});
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>

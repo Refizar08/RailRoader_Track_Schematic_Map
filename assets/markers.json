@@ -1,0 +1,87 @@
+[
+	{
+		"name": "Bryson",
+		"viewport": { "x": 0.4869, "y": 0.004 },
+		"description": "Main freight sorting facility, established 1985."
+	},
+	{
+		"name": "Robinson Coal Gap",
+		"viewport": { "x": 0.3514, "y": 0.008 },
+		"description": ""
+	},
+	{
+		"name": "Alarka",
+		"viewport": { "x": 0.3596, "y": 0.0251 },
+		"description": ""
+	},
+	{
+		"name": "Alarka Jct",
+		"viewport": { "x": 0.3809, "y": 0.0201 },
+		"description": ""
+	},
+	{
+		"name": "Fontana",
+		"viewport": { "x": 0.2942, "y": 0.0135 },
+		"description": ""
+	},
+	{
+		"name": "Andrews Interchange",
+		"viewport": { "x": 0.0294, "y": 0.0125 },
+		"description": ""
+	},
+	{
+		"name": "Andrews",
+		"viewport": { "x": 0.072, "y": 0.0088 },
+		"description": ""
+	},
+	{
+		"name": "Walker Branch",
+		"viewport": { "x": 0.5819, "y": 0.0335 },
+		"description": ""
+	},
+	{
+		"name": "Whitter Interchange",
+		"viewport": { "x": 0.7079, "y": 0.0108 },
+		"description": ""
+	},
+	{
+		"name": "Whitter",
+		"viewport": { "x": 0.6391, "y": 0.0111 },
+		"description": ""
+	},
+	{
+		"name": "Sylva Interchange",
+		"viewport": { "x": 0.962, "y": 0.014 },
+		"description": ""
+	},
+	{
+		"name": "Connelly Creek",
+		"viewport": { "x": 0.6835, "y": 0.026 },
+		"description": ""
+	},
+	{
+		"name": "Dillsboro",
+		"viewport": { "x": 0.865, "y": 0.011 },
+		"description": ""
+	},
+	{
+		"name": "Dillsboro Yard",
+		"viewport": { "x": 0.8256, "y": 0.0106 },
+		"description": ""
+	},
+	{
+		"name": "Nantahala",
+		"viewport": { "x": 0.1783, "y": 0.0101 },
+		"description": ""
+	},
+	{
+		"name": "Almond",
+		"viewport": { "x": 0.2579, "y": 0.01 },
+		"description": ""
+	},
+	{
+		"name": "Sylva",
+		"viewport": { "x": 0.9026, "y": 0.0111 },
+		"description": ""
+	}
+]
